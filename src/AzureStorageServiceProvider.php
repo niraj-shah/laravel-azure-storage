@@ -30,7 +30,8 @@ final class AzureStorageServiceProvider extends ServiceProvider
                 $client,
                 $config['container'],
                 $config['url'] ?? null,
-                $config['prefix'] ?? null
+                $config['prefix'] ?? null,
+                $config['key'] ?? null
             );
             return new Filesystem($adapter);
         });
