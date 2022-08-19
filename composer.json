@@ -2,9 +2,13 @@
     "name": "matthewbdaly/laravel-azure-storage",
     "description": "Microsoft Azure Blob Storage integration for Laravel's Storage API",
     "type": "library",
-    "keywords": ["storage","laravel","azure"],
+    "keywords": [
+        "storage",
+        "laravel",
+        "azure"
+    ],
     "require": {
-        "league/flysystem-azure-blob-storage": "^0.1.6"
+        "league/flysystem-azure-blob-storage": "^0.1.6|^3.1"
     },
     "require-dev": {
         "orchestra/testbench": "^4.0",
